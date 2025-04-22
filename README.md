@@ -13,18 +13,18 @@ This project focuses on classifying protein sequences into Kinases and Phosphata
 
 ## 🔧 What’s inside the notebook
 
-###Section	Description
+### Section	Description
 Dataset Preparation	Loads 100 Kinase and 100 Phosphatase sequences (length < 512)
 Embedding Extraction	Uses AutoTokenizer and the MeMDLM model to embed each sequence into a 768-dimensional vector
 Classifier Definition	A simple PyTorch-based neural network classifier
 Training Loop	Trains the classifier using BCELoss and Adam optimizer
 Evaluation	Outputs training and validation losses every 10 epochs
 
-###🧠 Model Used
+### 🧠 Model Used
 ChatterjeeLab/MeMDLM
 A pre-trained language model for biomedical and protein sequence modeling.
 
-###📌 Output
+### 📌 Output
 Embeddings of size 768
 
 Trained classifier outputs probabilities for binary class (0 = Kinase, 1 = Phosphatase)
