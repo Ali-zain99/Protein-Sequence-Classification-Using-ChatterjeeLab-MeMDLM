@@ -22,7 +22,7 @@ Evaluation	Outputs training and validation losses every 10 epochs
 
 ### 🧠 Model Used
 ChatterjeeLab/MeMDLM
-A pre-trained language model for biomedical and protein sequence modeling.
+A pre-trained language model for generation of membrane protein sequences.
 
 ### 📌 Output
 Embeddings of size 768
